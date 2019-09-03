@@ -1,5 +1,5 @@
 {% from "mysql/map.jinja" import mysql with context %}
 
-mysql_client_install:
+mysql_python_install:
   pkg.installed:
-    - name: {{ mysql.client }}
+    - name: {{ mysql.python }}
